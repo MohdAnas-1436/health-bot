@@ -2,7 +2,7 @@ import requests
 import os
 
 def get_who_updates():
-    url = "https://www.who.int/api/pages/outbreaks/disease-outbreak-news"
+    url = "https://www.who.int/emergencies/disease-outbreak-news"
     headers = {
         "User-Agent": "Mozilla/5.0",
         "Accept": "application/json"
